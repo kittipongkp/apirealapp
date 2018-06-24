@@ -5,7 +5,10 @@
   "repository": "https://github.com/kittipongkp/apirealapp",
   "author": "kittipongkp <kittipong.mesut@gmail.com>",
   "license": "MIT",
-  "start": "babel-node src/index.js",
+  "scripts": {
+    "start": "babel-node src/index.js"
+  },
+  
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0"
